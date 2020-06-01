@@ -1,0 +1,327 @@
+body {
+    
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+section {
+    margin-top: -20px;
+}
+
+nav {
+
+    background: black;
+    width: 100%;
+    height: 70px;
+
+
+}
+
+.nav-item {
+    list-style-type: none;
+    margin: 10px;  
+    
+
+}
+
+
+
+
+button {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    display: none;
+    background-color: black;
+    border: 0px;
+
+    
+}
+
+
+#icon40{
+    height: 60px;
+    margin-top: -15px;
+}
+
+button img {
+    width: 35px;
+    height: 35px;
+}
+
+div#navbarNav {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+
+/*Index css*/
+.container{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#bcontainer{
+    color: white;
+    background: black;
+    width: 100%;
+    padding: 1em;
+}
+
+@media screen and (max-width: 765px) {
+    button {
+        display: block;
+    }
+
+    #fixed{
+        position: fixed;
+        z-index: 2000;
+        padding: 1em;
+       
+    }
+
+    div#navbarNav {
+        background-color: black;
+        width: 100%;
+        float: left;
+        
+    }
+
+    #icon40{
+        height: 50px;
+        margin-top: -15px;
+    }
+       
+
+
+}
+
+.navbar-brand {
+    color: white;
+    margin-top: 4px;
+    margin-left: 10px;
+    font-size: 21px;
+}
+
+nav a {
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: white;
+    line-height: 4;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+
+nav a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+
+li.active {
+    
+    color: red;
+
+}
+
+
+img#slideshow {
+    width: 100%;
+    
+}
+
+
+
+/* Services css */
+
+.pservices {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: navy;
+    text-align: center;
+}
+
+img#slideshow2 {
+    width: 100%;
+    margin-top: px;
+  
+}
+
+table{
+    position: center;
+    width: 100%;
+}
+
+.table-cell{
+    padding: 30px;
+    text-align: center;
+    width: 33.33%;
+    background-color: whitesmoke;
+    
+}
+
+.table-cell:hover{
+    background-color: grey;
+        
+}
+
+.table-hover:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/* Portfolio css */
+
+img#slideshow{
+    padding: 0 0 0 0;
+    
+}
+
+img#portfolio-img, img#portfolio-img2, img#portfolio-img3 {
+    width: 90%;
+    height: 90%;
+    
+}
+
+
+.ubutton {
+    width: 100px;
+    height: 60px;
+    background: blue;
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 25px;
+    font-family: cursive;
+    border-radius: 17px;
+}
+
+.ubutton:hover {
+    background-color: crimson;
+    text-decoration: none;
+    color: yellow;
+}
+
+/* About Css */
+
+img#aboutimg {
+
+    width: 100%;
+    margin-top: px;
+}
+
+img#aboutimg2 {
+    width: 90%;
+    height: 90%;
+   
+
+}
+
+
+img#aboutimg3 {
+    width: 90%;
+    height: 90%;
+    
+}
+
+.row {
+    padding: 40px;
+}
+
+
+
+a#aboutbutton, a#aboutbutton2 {
+    width: 100px;
+    height: 60px;
+    background: blue;
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 25px;
+    font-family: cursive;
+    border-radius: 17px;
+    
+}
+
+
+
+/* Contact Css */
+
+
+h3#contacth3 {
+    color: black;
+    font-family: fantasy;
+}
+
+h4#contacth4 {
+    color: blue;
+}
+
+
+.form-control {
+
+    display: block;
+    width: 50%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: cadetblue;
+    background-color: white;
+    background-clip: padding-box;
+    border: 1px solid blue;
+    border-radius: .25rem;
+  
+}
+
+
+
+button#contactsubmit {
+    width: 130px;
+    height: 80px;
+    background: blue;
+    position: absolute;
+    padding: 10px;
+    color: cornsilk;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+button#contactsubmit:hover {
+    background-color: green;
+    text-decoration: none;
+}
+
+form{
+    text-align: left;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 100px;
+    background: black;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -10px;
+    padding: 0;
+      
+}
+
+p#footer-text {
+    line-height: 5;
+    text-align: center;
+    color: grey;
+    padding: 0; 
+    font-size: 10px;
+    font-family: cursive;
+
+}
+
